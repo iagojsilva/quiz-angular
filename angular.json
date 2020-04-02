@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "quiz"
+    }
+  },
+  "defaultProject": "quiz",
+  "cli": {
+    "analytics": "bcebd1fc-1c36-4f84-91bc-9624f263a7a6"
+  }
 }

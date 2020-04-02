@@ -1,0 +1,108 @@
+[{ 
+  "Quizes": [
+
+    [
+  {
+    "enunciado":"O que significa ‘concatenar’?",
+    "alternativas":[
+      "Unir dados de modo lógico ou manter ligação ou conexão entre eles",
+      "Dividir duas variáveis",
+      "Trata-se de um conjunto de caracteres",
+      "Configurar o tipo de uma variável"
+    ],
+    "right": 0
+  },
+  {
+    "enunciado":"Qual dos grupos apresentados abaixo apresenta apenas paradigmas de programação?",
+    "alternativas":[
+      "Algol, Basic, Lógico e Orientado a Objetos",
+      "Orientado a Objetos, Java, Imperativo e Lógico",
+      "Imperativo, Funcional, Lógico e Orientado a Objetos",
+      "Imperativo, Programar, Lógico e Orientado a Objetos"
+    ],
+    "right": 2
+  },		
+  {
+    "enunciado":"O que é um algoritmo?",
+    "alternativas":[
+      "Permite realizar operações lógicas e aritméticas utilizando apenas dois dígitos ou dois estados (sim ou não, verdadeiro ou falso, tudo ou nada, ligado ou desligado, 1 ou 0)",
+      "É a solução de um problema",
+      "São ações ditas ao computador para ele executar",
+      "Trata-se de uma sequência de passos, conhecida como um conjunto de instruções para se chegar a um determinado objetiva"
+    ],
+    "right": 3
+  },
+  {
+    "enunciado":"O que são arrays?",
+    "alternativas":[
+      "São estruturas de dados homogêneas que possibilitam o armazenamento de grupos de valores do mesmo tipo, em uma única variável",
+      "São variáveis específicas para armazenamento de números inteiro",
+      "Trata-se de uma forma de planejamento do algoritmo",
+      "São formas de estruturar ou organizar dados na memória RAM do computador, de modo que você possa utilizar estes dados de uma forma mais eficiente"
+    ],
+    "right": 0
+  },
+
+  {
+    "enunciado":"Marque a opção correta que define a estrutura de repetição 'PARA - ATE' (Em inglês, 'For'):",
+    "alternativas":[
+      "Caso o resultado seja falso o programa encerra essa estrutura e volta para o fluxo do programa",
+      "Estrutura de repetição que realiza um teste lógico no início da estrutura e sempre que o teste lógico resultar em VERDADEIRO, os comandos associados a esta estrutura são executados",
+      "Estrutura de repetição que realiza um teste lógico no final da estrutura, executando ao menos uma vez o conjunto de instruções antes de verificar a condição testad0",
+      "Estrutura de repetição utilizada quando já existe um término determinado ou limites fixos"
+    ],
+    "right": 3
+  },
+  {
+    "enunciado":"Marque a opção que melhor define o conceito de Lógica na área da tecnologia?",
+    "alternativas":[
+      "Organização e planejamento das instruções, em um algoritmo, a fim de viabilizar a implantação de um programa/software",
+      "Maneira rigorosa de raciocinar",
+      "Significa encadear uma série de instruções para que se possa chegar à solução de um problema",
+      "O encadeamento coerente de alguma coisa que obedece a certas convenções e regras"
+    ],
+    "right": 0
+  },
+
+  {
+    "enunciado":"Onde as variáveis ficam armazenadas?",
+    "alternativas":[
+      "No banco de dados, no software e na memória RAM",
+      "Na memória RAM do computador",
+      "No programa/software",
+      "No banco de dados"
+    ],
+    "right": 1
+  },
+  {
+    "enunciado":"Onde as variáveis ficam armazenadas?",
+    "alternativas":[
+      "No banco de dados, no software e na memória RAM",
+      "Na memória RAM do computador",
+      "No programa/software",
+      "No banco de dados"
+    ],
+    "right": 1
+    }
+  ],
+  []
+]
+},
+
+  [{
+      "dados" : {
+      "image": "assets/code.svg",
+      "nome": "Logica de Programação",
+      "id": 0
+    }
+  },
+  {
+      "dados" : {
+      "image": "assets/code.svg",
+      "nome": "Logica de Programação",
+      "id": 1
+    }
+  }
+]
+
+]

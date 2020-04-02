@@ -1,0 +1,11 @@
+
+<div class="h-100 d-flex align-items-center justify-content-center flex-column m-3 ">
+    <div *ngFor="let quiz of data" class="m-5">
+        <a [routerLink]="['/questions',quiz.id]" routerLinkActive="router-link-active" class="text-decoration-none">
+            <div class="" class="mb-3 bg-primary d-flex justify-content-center">
+                <img class="w-50" src="{{quiz.image}}" alt="">
+            </div>
+            <p class="text-center font-italic text-secondary ">{{quiz.name}}</p>
+        </a>
+    </div>
+</div>
