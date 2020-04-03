@@ -1,20 +1,29 @@
-.border-btn{
-    border: 1px  solid rgba(0,0,0,.125);
-    border-bottom: 5px  solid rgba(0,0,0,.125);
+.border-al{
+    border: 1px  solid rgba(0, 0, 0, 0.7);
+    border-bottom: 5px  solid rgba(0,0,0,.7);
 }
 
+.border-btn{
+    border: 2px  solid rgba(194,24,91, 0.8) !important;
+    border-bottom: 5px  solid rgba(194,24,91, 0.8) !important;
+}
 .rounded-4{
     border-radius: 1rem;
 }
 
 .enabled{
-    border: 2px  solid rgba(100, 199, 245, 0.8) !important;
-    border-bottom: 5px  solid rgba(100, 199, 245, 0.8) !important;
-    background-color: rgba(100, 199, 245,.2);
-    color: rgb(0, 174, 255);
+    border: 2px  solid rgba(194,24,91, 0.8) !important;
+    border-bottom: 5px  solid rgba(194,24,91, 0.8) !important;
+    background-color: rgba(194,24,91,.2);
+    color: rgb(194,24,91);
 }
 
 .disable{
-    background-color: rgba(0,0,0,.125);
-    color: rgba(0,0,0,.5);
+    background-color: rgba(194,24,91,.125);
+    color: rgba(194,24,91,.125);
+}
+
+.border-fina{
+    border: 2.5px  solid rgba(194,24,91, 0.8) !important;
+    border-bottom: 2px  solid rgba(194,24,91, 0.8) !important;
 }

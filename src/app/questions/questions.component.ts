@@ -44,7 +44,7 @@ export class QuestionsComponent implements OnInit {
       return new Promise( resolve => setTimeout(resolve, ms) );
   }
     $(document).ready(function (){
-      $('carousel-item').first().addClass('active')
+      $('#carouselExampleSlidesOnly').carousel()
     })
     $(document).on('click', '.alternativa', function (){
       //await delay(1000)
@@ -60,12 +60,11 @@ export class QuestionsComponent implements OnInit {
         }
      
       $('#btn_submit').on('click', async function (){
-        $(this).addClass('border')
+        $(this).addClass('border-fina')
         $(this).removeClass('border-btn')
         await delay(200)
         $(this).addClass('border-btn')
-        $(this).removeClass('border')
-        console.log($('#carousel'))
+        $(this).removeClass('border-fina')
       })
     })
      

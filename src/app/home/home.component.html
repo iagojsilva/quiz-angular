@@ -1,11 +1,12 @@
 
-<div class="h-100 d-flex align-items-center justify-content-center flex-column m-3 ">
-    <div *ngFor="let quiz of quizes" class="m-5">
+<appbar></appbar>
+<div class="d-flex justify-content-center flex-column align-items-center my-1">
+    <div *ngFor="let quiz of quizes" class="">
         <a [routerLink]="['/questions',quiz.id]" routerLinkActive="router-link-active" class="text-decoration-none">
-            <div class="" class="mb-3 bg-primary d-flex justify-content-center">
-                <img class="w-50" src="{{quiz.image}}" alt="">
+            <div style="background-color: #242424; border-radius: 100%; width: 100px; height: 100px;" class="border-btn d-flex justify-content-center">
+                <img  class="w-50" src="{{quiz.image}}" alt="">
             </div>
-            <p class="text-center font-italic text-secondary ">{{quiz.name}}</p>
+            <p class="text-center text-white">{{quiz.name}}</p>
         </a>
     </div>
 </div>
