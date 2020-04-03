@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {DataService} from '../data.service';
+import { QuizService } from './quiz.service';
+import { QuizModel } from './quiz.model';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +9,20 @@ import {DataService} from '../data.service';
 })
 export class HomeComponent{
 
-  data = new DataService().getQuizes();
+  quizes: QuizModel[]
 
-
-  constructor() { }
+  constructor(private quizService: QuizService) { }
 
   ngOnInit(): void {
-    
+    this.quizService.getQuizes().subscribe(data =>{
+      this.quizes = data.map((arg)=> {
+        return {
+          name : arg['nome'],
+          image: arg['image'],
+          id: arg['id']
+        } as QuizModel
+      })
+    })
   }
 
   

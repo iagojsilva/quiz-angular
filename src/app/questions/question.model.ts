@@ -1,5 +1,6 @@
 export class QuestionsModel{
     constructor(
+        public id: number,
         public enunciado: string,
         public a1: string,
         public a2: string,
