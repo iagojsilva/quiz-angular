@@ -4,9 +4,15 @@
 }
 
 .border-btn{
-    border: 2px  solid rgba(194,24,91, 0.8) !important;
-    border-bottom: 5px  solid rgba(194,24,91, 0.8) !important;
+    border: 2px  solid rgba(24, 194, 95, 0.8) !important;
+    border-bottom: 5px  solid rgba(24, 194, 95, 0.8) !important;
 }
+
+.border-btn-danger{
+    border: 2px  solid rgba(172, 33, 33, 0.8) !important;
+    border-bottom: 5px  solid rgba(172, 33, 33, 0.8) !important;
+}
+
 .rounded-4{
     border-radius: 1rem;
 }
@@ -24,6 +30,8 @@
 }
 
 .border-fina{
-    border: 2.5px  solid rgba(194,24,91, 0.8) !important;
-    border-bottom: 2px  solid rgba(194,24,91, 0.8) !important;
+    border: 2px  solid rgba(24, 194, 95, 0.8) !important;
+    border-bottom: 2px  solid rgba(24, 194, 95, 0.8) !important;
 }
+
+:host ::ng-deep .mat-horizontal-stepper-header-container { display: none; }

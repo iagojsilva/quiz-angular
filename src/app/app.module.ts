@@ -8,10 +8,13 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
-import { AngularFirestore } from '@angular/fire/firestore/firestore';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppBarComponent } from './app-bar/app-bar.component';
+import { BottomsheetComponent } from './bottomsheet/bottomsheet.component';
+import {MatStepperModule} from '@angular/material/stepper';
+
 
 @NgModule({
   declarations: [
@@ -19,14 +22,20 @@ import { AppBarComponent } from './app-bar/app-bar.component';
     HomeComponent,
     NotFoundComponent,
     QuestionsComponent,
-    AppBarComponent
+    AppBarComponent,
+    BottomsheetComponent
+  ],
+  entryComponents:[
+    BottomsheetComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatBottomSheetModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
